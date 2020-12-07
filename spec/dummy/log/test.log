@@ -1,0 +1,336 @@
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4083 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70130044216900 type=uuid data=0xa4c1931c2d614072...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.002s
+MONGODB | localhost:27017 req:10 conn:1:2 sconn:4084 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70130044216900 type=uuid data=0xa4c1931c2d614072...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:10 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4087 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70148055085700 type=uuid data=0x040a360476784b23...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:10 conn:1:2 sconn:4088 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70148055085700 type=uuid data=0x040a360476784b23...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:10 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4091 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70257323732760 type=uuid data=0x17e659a1c1f248b1...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:10 conn:1:2 sconn:4092 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70257323732760 type=uuid data=0x17e659a1c1f248b1...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:10 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4095 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70315955829700 type=uuid data=0x5ff160e67ee64b21...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:10 conn:1:2 sconn:4096 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70315955829700 type=uuid data=0x5ff160e67ee64b21...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:10 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4099 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70155213187900 type=uuid data=0x29afb28f368b4aee...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:10 conn:1:2 sconn:4100 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70155213187900 type=uuid data=0x29afb28f368b4aee...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:10 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4103 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70173080627180 type=uuid data=0x907090f0ab264c38...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:10 conn:1:2 sconn:4104 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70173080627180 type=uuid data=0x907090f0ab264c38...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:10 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4107 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70092571754420 type=uuid data=0x4d6ef1040c004033...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4107 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70092571754420 type=uuid data=0x4d6ef1040c004033...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4107 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70092571754420 type=uuid data=0x4d6ef1040c004033...>}}
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:12 conn:1:2 sconn:4108 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70092571754420 type=uuid data=0x4d6ef1040c004033...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:12 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4111 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70130265941740 type=uuid data=0xd41ad6d9bfed4ae1...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4111 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70130265941740 type=uuid data=0xd41ad6d9bfed4ae1...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.009s
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4111 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70130265941740 type=uuid data=0xd41ad6d9bfed4ae1...>}}
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:12 conn:1:2 sconn:4112 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70130265941740 type=uuid data=0xd41ad6d9bfed4ae1...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:12 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4115 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70189767091140 type=uuid data=0xe7ed90b6cdb94311...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4115 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70189767091140 type=uuid data=0xe7ed90b6cdb94311...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4115 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70189767091140 type=uuid data=0xe7ed90b6cdb94311...>}}
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:12 conn:1:2 sconn:4116 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70189767091140 type=uuid data=0xe7ed90b6cdb94311...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:12 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4119 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70124751276580 type=uuid data=0xc792ba1d9a35409f...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4119 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70124751276580 type=uuid data=0xc792ba1d9a35409f...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4119 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70124751276580 type=uuid data=0xc792ba1d9a35409f...>}}
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:12 conn:1:2 sconn:4120 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70124751276580 type=uuid data=0xc792ba1d9a35409f...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:12 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4123 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70131221825260 type=uuid data=0x6774384979514eb5...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4123 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70131221825260 type=uuid data=0x6774384979514eb5...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4123 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70131221825260 type=uuid data=0x6774384979514eb5...>}}
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.009s
+MONGODB | localhost:27017 req:12 conn:1:2 sconn:4124 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70131221825260 type=uuid data=0x6774384979514eb5...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:12 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4127 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70103787527600 type=uuid data=0xf448d3f308bb4598...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4127 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70103787527600 type=uuid data=0xf448d3f308bb4598...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4127 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70103787527600 type=uuid data=0xf448d3f308bb4598...>}}
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.014s
+MONGODB | localhost:27017 req:12 conn:1:2 sconn:4128 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70103787527600 type=uuid data=0xf448d3f308bb4598...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:12 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4131 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70180048921280 type=uuid data=0x40143fc283924fb5...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4131 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70180048921280 type=uuid data=0x40143fc283924fb5...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.005s
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4131 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70180048921280 type=uuid data=0x40143fc283924fb5...>}}
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:12 conn:1:2 sconn:4132 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70180048921280 type=uuid data=0x40143fc283924fb5...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:12 | admin.endSessions | SUCCEEDED | 0.001s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4135 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70315242743000 type=uuid data=0xf3ecebfd002d44f1...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4135 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70315242743000 type=uuid data=0xf3ecebfd002d44f1...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4135 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70315242743000 type=uuid data=0xf3ecebfd002d44f1...>}}
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.017s
+MONGODB | localhost:27017 req:12 conn:1:2 sconn:4136 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70315242743000 type=uuid data=0xf3ecebfd002d44f1...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:12 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4139 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70160770982440 type=uuid data=0xb168ef7988654cad...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4139 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70160770982440 type=uuid data=0xb168ef7988654cad...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4139 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70160770982440 type=uuid data=0xb168ef7988654cad...>}}
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:12 conn:1:2 sconn:4140 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70160770982440 type=uuid data=0xb168ef7988654cad...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:12 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4143 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70093483119420 type=uuid data=0x601ebea692bc41f6...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4143 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70093483119420 type=uuid data=0x601ebea692bc41f6...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4143 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70093483119420 type=uuid data=0x601ebea692bc41f6...>}}
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:12 conn:1:2 sconn:4144 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70093483119420 type=uuid data=0x601ebea692bc41f6...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:12 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4147 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70317198086000 type=uuid data=0x2ea5f3e9f21c4b20...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4147 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70317198086000 type=uuid data=0x2ea5f3e9f21c4b20...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4147 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70317198086000 type=uuid data=0x2ea5f3e9f21c4b20...>}}
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:12 conn:1:2 sconn:4148 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70317198086000 type=uuid data=0x2ea5f3e9f21c4b20...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:12 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4151 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70303025857920 type=uuid data=0x14328e43835d44f7...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4151 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70303025857920 type=uuid data=0x14328e43835d44f7...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4151 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70303025857920 type=uuid data=0x14328e43835d44f7...>}}
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:11 conn:1:1 sconn:4151 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70303025857920 type=uuid data=0x14328e43835d44f7...>}}
+MONGODB | localhost:27017 req:11 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:12 conn:1:1 sconn:4151 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70303025857920 type=uuid data=0x14328e43835d44f7...>}}
+MONGODB | localhost:27017 req:12 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.009s
+MONGODB | localhost:27017 req:13 conn:1:1 sconn:4151 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70303025857920 type=uuid data=0x14328e43835d44f7...>}}
+MONGODB | localhost:27017 req:13 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:15 conn:1:2 sconn:4152 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70303025857920 type=uuid data=0x14328e43835d44f7...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:15 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4156 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70342720513680 type=uuid data=0x72f2d66920354b8a...>}}
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4158 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70191389254280 type=uuid data=0xbe7a4711105d420f...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4156 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70342720513680 type=uuid data=0x72f2d66920354b8a...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4158 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70191389254280 type=uuid data=0xbe7a4711105d420f...>}}
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4156 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70342720513680 type=uuid data=0x72f2d66920354b8a...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4158 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70191389254280 type=uuid data=0xbe7a4711105d420f...>}}
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:11 conn:1:1 sconn:4156 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70342720513680 type=uuid data=0x72f2d66920354b8a...>}}
+MONGODB | localhost:27017 req:11 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:11 conn:1:1 sconn:4158 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70191389254280 type=uuid data=0xbe7a4711105d420f...>}}
+MONGODB | localhost:27017 req:11 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:12 conn:1:1 sconn:4156 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70342720513680 type=uuid data=0x72f2d66920354b8a...>}}
+MONGODB | localhost:27017 req:12 conn:1:1 sconn:4158 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70191389254280 type=uuid data=0xbe7a4711105d420f...>}}
+MONGODB | localhost:27017 req:12 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.005s
+MONGODB | localhost:27017 req:12 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.006s
+MONGODB | localhost:27017 req:13 conn:1:1 sconn:4156 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70342720513680 type=uuid data=0x72f2d66920354b8a...>}}
+MONGODB | localhost:27017 req:13 conn:1:1 sconn:4158 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70191389254280 type=uuid data=0xbe7a4711105d420f...>}}
+MONGODB | localhost:27017 req:13 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:13 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:15 conn:1:2 sconn:4159 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70191389254280 type=uuid data=0xbe7a4711105d420f...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:15 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:15 conn:1:2 sconn:4160 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70342720513680 type=uuid data=0x72f2d66920354b8a...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:15 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | Unsupported client option 'max_retries'. It will be ignored.
+MONGODB | Unsupported client option 'retry_interval'. It will be ignored.
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:4163 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70251519534580 type=uuid data=0xbb53b35aa12340bc...>}}
+MONGODB | localhost:27017 req:8 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:4163 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70251519534580 type=uuid data=0xbb53b35aa12340bc...>}}
+MONGODB | localhost:27017 req:9 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.003s
+MONGODB | localhost:27017 req:10 conn:1:1 sconn:4163 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70251519534580 type=uuid data=0xbb53b35aa12340bc...>}}
+MONGODB | localhost:27017 req:10 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:11 conn:1:1 sconn:4163 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70251519534580 type=uuid data=0xbb53b35aa12340bc...>}}
+MONGODB | localhost:27017 req:11 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:12 conn:1:1 sconn:4163 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70251519534580 type=uuid data=0xbb53b35aa12340bc...>}}
+MONGODB | localhost:27017 req:12 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:13 conn:1:1 sconn:4163 | cloud_model_api_desec_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"cloud_model_api_desec_test", "lsid"=>{"id"=><BSON::Binary:0x70251519534580 type=uuid data=0xbb53b35aa12340bc...>}}
+MONGODB | localhost:27017 req:13 | cloud_model_api_desec_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 req:15 conn:1:2 sconn:4164 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70251519534580 type=uuid data=0xbb53b35aa12340bc...>}], "$db"=>"admin"}
+MONGODB | localhost:27017 req:15 | admin.endSessions | SUCCEEDED | 0.000s
