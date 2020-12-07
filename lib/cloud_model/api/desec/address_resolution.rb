@@ -7,7 +7,7 @@ end
 module CloudModel
   module Api
     module Desec
-      module AdressResolution
+      module AddressResolution
         def self.included(base)
           base.extend ClassMethods
           base.around_save :set_desec_dns
@@ -67,4 +67,4 @@ module CloudModel
   end
 end
 
-CloudModel::AddressResolution.class_eval { include CloudModel::Api::Desec::AdressResolution }
+CloudModel::AddressResolution.class_eval { include CloudModel::Api::Desec::AddressResolution }
