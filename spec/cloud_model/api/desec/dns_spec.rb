@@ -3,24 +3,26 @@ require 'cloud_model/api/desec/config'
 
 describe CloudModel::Api::Desec::Dns do
   describe '.set' do
-    it 'should set ipv4 addresses' do
+    it 'should set ipv4 addresses (and delete ipv6 if none given)' do
       expect(CloudModel::Api::Desec).to receive(:request_put).with(
         'example.com',
         'rrsets/',
         [
-          {"subname": 'test2', "type": "A", "ttl": 3600, "records": ['198.51.100.42', '203.0.113.23']}
+          {"subname": 'test2', "type": "A", "ttl": 3600, "records": ['198.51.100.42', '203.0.113.23']},
+          {"subname": 'test2', "type": "AAAA", "ttl": 3600, "records": []}
         ]
       )
 
       CloudModel::Api::Desec::Dns.set 'example.com', 'test2' => ['198.51.100.42', '203.0.113.23']
     end
 
-    it 'should set ipv6 addresses' do
+    it 'should set ipv6 addresses (and delte ipv4 if none given)' do
       expect(CloudModel::Api::Desec).to receive(:request_put).with(
         'example.com',
         'rrsets/',
         [
-          {"subname": 'test2', "type": "AAAA", "ttl": 3600, "records": ['2001:db8::dead:beef', '2001:db8::f00:ba2']},
+          {"subname": 'test2', "type": "A", "ttl": 3600, "records": []},
+          {"subname": 'test2', "type": "AAAA", "ttl": 3600, "records": ['2001:db8::dead:beef', '2001:db8::f00:ba2']}
         ]
       )
 
@@ -40,13 +42,15 @@ describe CloudModel::Api::Desec::Dns do
       CloudModel::Api::Desec::Dns.set 'example.com', 'test2' => ['198.51.100.42', '2001:db8::dead:beef', '2001:db8::f00', '203.0.113.23']
     end
 
-    it 'should set multiple ipv4 resolutions' do
+    it 'should set multiple ipv4 resolutions (and delete ipv6 if none given)' do
       expect(CloudModel::Api::Desec).to receive(:request_put).with(
         'example.com',
         'rrsets/',
         [
           {"subname": 'test1', "type": "A", "ttl": 3600, "records": ['198.51.100.23']},
-          {"subname": 'test2', "type": "A", "ttl": 3600, "records": ['198.51.100.42', '203.0.113.23']}
+          {"subname": 'test1', "type": "AAAA", "ttl": 3600, "records": []},
+          {"subname": 'test2', "type": "A", "ttl": 3600, "records": ['198.51.100.42', '203.0.113.23']},
+          {"subname": 'test2', "type": "AAAA", "ttl": 3600, "records": []}
         ]
       )
 
@@ -62,7 +66,9 @@ describe CloudModel::Api::Desec::Dns do
         'example.com',
         'rrsets/',
         [
+          {"subname": 'test1', "type": "A", "ttl": 3600, "records": []},
           {"subname": 'test1', "type": "AAAA", "ttl": 3600, "records": ['2001:db8::ba2:f00']},
+          {"subname": 'test2', "type": "A", "ttl": 3600, "records": []},
           {"subname": 'test2', "type": "AAAA", "ttl": 3600, "records": ['2001:db8::dead:beef', '2001:db8::f00:ba2']},
         ]
       )
