@@ -65,4 +65,6 @@ module CloudModel
   end
 end
 
-CloudModel::AddressResolution.class_eval { include CloudModel::Api::Desec::AddressResolution }
+ActiveSupport::Reloader.to_prepare do
+  CloudModel::AddressResolution.class_eval { include CloudModel::Api::Desec::AddressResolution }
+end
