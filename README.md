@@ -1,4 +1,8 @@
 # CloudModel::Api::Desec
+
+![RSpec](https://github.com/cloudmodel/cloudmodel-api-desec/workflows/RSpec/badge.svg)
+![CodeQL](https://github.com/cloudmodel/cloudmodel-api-desec/workflows/CodeQL/badge.svg)
+
 Support for Desec DNS API in [CloudModel](https://github.com/cloudmodel/cloudmodel).
 
 ## Usage

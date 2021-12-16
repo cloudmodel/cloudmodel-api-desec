@@ -19,7 +19,7 @@ group :development, :test do
   gem "pry"
   gem 'yard'
 
-  if false
+  if true
     gem 'cloudmodel', git: 'git@github.com:cloudmodel/cloudmodel.git'
   else
     gem 'cloudmodel', path: '../cloudmodel'
