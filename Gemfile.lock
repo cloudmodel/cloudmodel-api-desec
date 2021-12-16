@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:cloudmodel/cloudmodel.git
+  remote: https://github.com/cloudmodel/cloudmodel.git
   revision: a4cb92abfce6fbcd0e6d1dce098d20905def0887
   specs:
     cloudmodel (0.2.1)

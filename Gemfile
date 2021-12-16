@@ -20,7 +20,7 @@ group :development, :test do
   gem 'yard'
 
   if true
-    gem 'cloudmodel', git: 'git@github.com:cloudmodel/cloudmodel.git'
+    gem 'cloudmodel', git: 'https://github.com/cloudmodel/cloudmodel.git'
   else
     gem 'cloudmodel', path: '../cloudmodel'
   end
