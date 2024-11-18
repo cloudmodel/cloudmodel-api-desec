@@ -1,9 +1,9 @@
 require "cloudmodel"
-require "cloud_model/engine"
+#require "cloud_model/engine"
 
-if Rails.env.test?
-  require "cloud_model/api/desec/engine"
-end
+# if Rails.env.test?
+#   require "cloud_model/api/desec/engine"
+# end
 require "cloud_model/api/desec/config"
 require "cloud_model/api/desec/dns"
 require "cloud_model/api/desec/address_resolution"
