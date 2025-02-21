@@ -24,8 +24,9 @@ module CloudModel
             sub_name, domain = n.split(/([\w\-]+\.\w{2,10})\z/)
             sub_name = sub_name.gsub(/\.$/, '')
             mappings[domain] ||= {}
-            mappings[domain][sub_name] = CloudModel::AddressResolution.where(name: n, active: true).pluck(:ip)
+            mappings[domain][sub_name] = CloudModel::AddressResolution.where(active: true, "$or": [{name: n}, {alt_names: n}]).pluck(:ip)
           end
+
           CloudModel.config.api.desec.tokens.keys.each do |domain|
             unless mappings[domain].blank?
               #pp mappings[domain]
@@ -35,13 +36,14 @@ module CloudModel
         end
 
         def set_desec_dns
-          changed = (name_changed? or active_changed?)
+          changed = (name_changed? or alt_names_changed? or active_changed?)
           names = []
           names << name_was unless name_was.nil?
           if result = yield and changed
             begin
               names << name
-              update_desec_dns_names names
+              names += alt_names unless alt_names.blank?
+              update_desec_dns_names names.uniq
             rescue
             end
           end
