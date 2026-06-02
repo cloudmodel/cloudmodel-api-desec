@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/cloudmodel/cloudmodel.git
-  revision: 3f25e9a3b6ccb56b77356fb1cb6b9f52cc34bed6
+  revision: 090b11563b28b52a218aaed250d7a69f1a7a2e63
   specs:
-    cloudmodel (0.3.0)
+    cloudmodel (0.4.0)
       bcrypt-ruby (~> 3.0, >= 3.0.0)
       mongoid (>= 7.1.2)
       mongoid-grid_fs (~> 2.3)
@@ -27,8 +27,8 @@ GIT
 PATH
   remote: .
   specs:
-    cloudmodel-api-desec (0.1.0)
-      cloudmodel (~> 0.3.0)
+    cloudmodel-api-desec (0.2.0)
+      cloudmodel (~> 0.4.0)
       rails (~> 8.0)
 
 GEM
