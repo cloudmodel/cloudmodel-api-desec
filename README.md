@@ -27,5 +27,31 @@ Or install it yourself as:
 $ gem install cloudmodel-api-desec
 ```
 
+## Configuration
+Set your deSEC API tokens in `config/initializers/cloud_model_config.rb`, keyed
+by DNS zone (domain). **Keep tokens out of the repo** — read them from a secret
+store (Rails encrypted credentials or ENV), never inline:
+
+```ruby
+CloudModel.setup do |config|
+  config.api.desec.tokens =
+    (Rails.application.credentials.dig(:api, :desec, :tokens) || {}).to_h.transform_keys(&:to_s)
+end
+```
+
+The credentials hold, per zone:
+
+```yaml
+api:
+  desec:
+    tokens:
+      example.com: your-desec-token
+      example.net: another-token
+```
+
+| Option | Purpose |
+| --- | --- |
+| `config.api.desec.tokens` | Hash of `zone => deSEC API token`. `token_for(zone)` resolves the token used to update that zone's records. |
+
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
